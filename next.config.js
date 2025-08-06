@@ -4,7 +4,6 @@ const isGithubPages = process.env.NODE_ENV === 'production';
 const repoName = 'koushik_portfolio'; // 🔁 change this to your repo name
 
 const nextConfig = {
-  output: 'export', 
   reactStrictMode: true,
   trailingSlash: true, // Required for static export to work properly on GitHub Pages
 
