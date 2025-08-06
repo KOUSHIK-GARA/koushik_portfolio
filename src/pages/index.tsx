@@ -120,6 +120,17 @@ export default function Page() {
           </li>
         </ol>
 
+        <div className="text-lg my-7">Education </div>
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+          <div className="w-full h-full rounded-md p-3 flex gap-4 flex-col"
+            style={{ transform: "none;" }}>
+          <div className="h-8 w-8 p-2 rounded-md bg-black"><svg className="text-white" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 0.9C3.85 0.9 0.9 3.85 0.9 7.5S3.85 14.1 7.5 14.1 14.1 11.15 14.1 7.5 11.15 0.9 7.5 0.9Zm0 12.6A5.1 5.1 0 1 1 7.5 2.4a5.1 5.1 0 0 1 0 11.1Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div>
+            <div className="text-md text-gray-600">BITS Pilani, Hyderabad</div>
+            <div className="text-xs text-gray-500">
+              BE in Electrical &amp; Electronics (2019–2023) — CGPA: 8.24/10.
+            </div>
+          </div>
+        </div>
         {/* <div className="text-lg my-7">Projects </div> */}
 
         {/* <div className="grid  grid-cols-1 gap-3  md:grid-cols-3"> */}
