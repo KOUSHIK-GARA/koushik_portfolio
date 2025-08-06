@@ -17,14 +17,14 @@ export default function Document() {
           content="Portfolio website for Koushik, a software engineer based in India."
         />
         <meta property="og:type" content="website" />
-        <meta name="title" property="og:title" content="Ajay's Portfolio" />
+        <meta name="title" property="og:title" content="Koushik's Portfolio" />
         <meta
           property="og:description"
-          content="Portfolio website of Ajay, a software engineer based in India."
+          content="Portfolio website of Koushik, a software engineer based in India."
         />
         <meta name="image" property="og:image" content="/og_image.webp" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Ajay's Portfolio" />
+        <meta property="twitter:title" content="Koushik's Portfolio" />
         <meta
           property="twitter:description"
           content="Hi, there I am Koushik, a software engineer based in India."
