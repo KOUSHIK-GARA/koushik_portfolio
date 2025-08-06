@@ -14,7 +14,7 @@ export default function Page() {
     <Layout>
       <div className="pt-8 max-w-3xl w-full h-full">
         <div className="text-gray-500">
-          {`I&apos;m a Software Engineer passionate about building high-performance and scalable web applications. I love building solid, scalable apps—whether it’s crafting smooth frontends with Angular or powering up the backend with Spring Boot. I've contributed to agile product teams at `}
+          {`I'm a Software Engineer passionate about building high-performance and scalable web applications. I love building solid, scalable apps—whether it’s crafting smooth frontends with Angular or powering up the backend with Spring Boot. I've contributed to agile product teams at `}
           <a
             className="hover:text-gray-600 cursor-pointer underline"
             href="https://www.biz2x.com/india/"
