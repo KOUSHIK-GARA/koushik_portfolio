@@ -14,7 +14,7 @@ export default function Page() {
     <Layout>
       <div className="pt-8 max-w-3xl w-full h-full">
         <div className="text-gray-500">
-          I&apos;m a Software Engineer passionate about building high-performance and scalable web applications. I love building solid, scalable apps—whether it’s crafting smooth frontends with Angular or powering up the backend with Spring Boot. I've contributed to agile product teams at{" "}
+          {`I&apos;m a Software Engineer passionate about building high-performance and scalable web applications. I love building solid, scalable apps—whether it’s crafting smooth frontends with Angular or powering up the backend with Spring Boot. I've contributed to agile product teams at `}
           <a
             className="hover:text-gray-600 cursor-pointer underline"
             href="https://www.biz2x.com/india/"
@@ -26,7 +26,7 @@ export default function Page() {
             className="hover:text-gray-600 cursor-pointer underline"
             href=" https://www.zaubacorp.com/XARVIS-INTELLIGENT-SYSTEMS-LAB-PRIVATE-LIMITED-U72900PN2019PTC183220"
           >
-           
+
             Xarvis Labs
           </a>
         </div>
@@ -34,7 +34,7 @@ export default function Page() {
         <div className="text-lg my-7 font-semibold">Experience </div>
 
         <ol className="pl-3">
-        <li className="border-l-2 border-gray-300">
+          <li className="border-l-2 border-gray-300">
             <div className="flex flex-start">
               <div className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-500 -ml-[13px] border-[2px] border-gray-300"></div>
               <div className="h-[100px] px-2 md:px-4 text-md text-gray-600">
@@ -123,7 +123,7 @@ export default function Page() {
         {/* <div className="text-lg my-7">Projects </div> */}
 
         {/* <div className="grid  grid-cols-1 gap-3  md:grid-cols-3"> */}
-          {/* <motion.div
+        {/* <motion.div
             onClick={() =>
               window.open(
                 "https://github.com/kumarajay0412/Portfolio-Template",
@@ -182,7 +182,7 @@ export default function Page() {
             </div>
           </motion.div> */}
 
-          {/* <motion.div
+        {/* <motion.div
             onClick={() => window.open("https://chartr.in/", "_blank")}
             whileHover={{
               y: -10, // Move up by 10 pixels
@@ -200,7 +200,7 @@ export default function Page() {
                 src="https://framerusercontent.com/images/kOuXE0IPZpxdRpazxtQZbYNbz84.png"
                 className="h-ful w-full   brightness-[5]"
               />
-            </div>
+            </div> 
             <div className="text-md text-gray-600">Chartr</div>
             <div className="text-xs text-gray-500">
               One Delhi and Chartr PWA: Real-Time Bus Tracking and DTC Ticketing
